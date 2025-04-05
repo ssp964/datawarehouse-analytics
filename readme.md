@@ -11,12 +11,14 @@ Analytics & Reporting: Creating SQL-based reports and dashboards for actionable 
 
 ## Project Structure:
 
+```bash
 -data/               Contains the raw data in .csv format (ERP and CRM data)
 -scripts/            Contains the scripts for data extraction, transformation, and loading
   ├─ BronzeLayer/    Scripts for batch processing and loading data (no transformations)
   ├─ SilverLayer/    Scripts for transforming data: cleaning, standardization, normalization, derived columns
   └─ GoldLayer/      Scripts for applying business logic using well-defined data models for accuracy, consistency, and scalability
 -tests/              Contains quality checks to validate data integrity, consistency, and accuracy
+   ```
 
 ## How to Run:
 
